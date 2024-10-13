@@ -1,4 +1,4 @@
-import Feedback from "../partials/Feedback";
+
 
 const About = () => {
     

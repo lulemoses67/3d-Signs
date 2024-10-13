@@ -67,7 +67,7 @@ const Contact = () => {
                 </div>
             </section>
             <section className=' reveal fade-in'>
-                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31917.884411649364!2d32.505991114834806!3d0.36905864127008126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da54f61f3eb5b%3A0x1a1ed9bd2b669c3d!2sNansana!5e0!3m2!1sen!2sug!4v1728816147222!5m2!1sen!2sug" width="100%" height="450" style={{"border":"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div><iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31917.884411649364!2d32.505991114834806!3d0.36905864127008126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da54f61f3eb5b%3A0x1a1ed9bd2b669c3d!2sNansana!5e0!3m2!1sen!2sug!4v1728816147222!5m2!1sen!2sug" width="100%" height="450" style={{"border":"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </section>
         </>
      );
