@@ -1,0 +1,55 @@
+@import '../base/mixins';
+@import '../base/colors';
+
+.gap-fix{
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+}
+.img-100px{
+    margin: 10px;
+    width: 100px;
+}
+.blog-list{
+    @include grid-container (1);
+    justify-items: center;
+    align-items: center;
+    @include respond(tablet){
+        @include grid-container (1)
+    }
+    @include respond(mobile){
+        @include grid-container (1)
+    }
+}
+.product{
+    transform: scale(0.9,0.9);
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.432);
+    border-radius: 10px;
+    img{
+        display: block;
+    }
+    &:hover{
+        box-shadow: 4px 12px 20px $primary;
+        transform: scale(1,1);
+        transition: 1s;
+    }
+}
+.card{
+    display: block;
+    width: 30%;
+    margin: 5px auto;
+    @include respond(mobile){
+        width: 60%;
+    }
+}
+.card-feedback{
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    img{ 
+        width: 120px;
+        height: 120px;
+        border: 1px solid white;
+        border-radius: 60%;
+    }
+}
